@@ -1,8 +1,8 @@
 # Basic Configurations
-baseUrl: https://allen-zqh.github.io/
+baseUrl: https://hualoveshao.github.io/
 languageCode: "zh-cn"
 theme: hyde
-title: Qiuhan Zhao's Blog
+title: Huage Niubi's Blog
 permalinks:
   post: /post/:year/:month/:filename/
 
@@ -26,7 +26,7 @@ Menus:
 
 params:
   description: "Your custom description"
-  themeColor: "theme-base-09"
+#  themeColor: "theme-base-0"
 
 # disqusShortname: spf13
 # googleAnalytics: "Your tracking code"
