@@ -1,0 +1,32 @@
+# Basic Configurations
+baseUrl: https://allen-zqh.github.io/
+languageCode: "zh-cn"
+theme: hyde
+title: Qiuhan Zhao's Blog
+permalinks:
+  post: /post/:year/:month/:filename/
+
+# for the summary of chinese posts
+hasCJKLanguage: true
+preserveTaxonomyNames: true
+
+paginate: 10
+
+output:
+  home:
+    - HTML
+    - RSS
+
+Menus:
+  main:
+    - Name: "Github"
+      URL: "https://github.com/username/"
+    - Name: "LinkedIn"
+      URL: "https://www.linkedin.com/in/username/"
+
+params:
+  description: "Your custom description"
+  themeColor: "theme-base-09"
+
+# disqusShortname: spf13
+# googleAnalytics: "Your tracking code"
